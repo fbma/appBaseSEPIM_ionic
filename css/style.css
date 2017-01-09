@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}/*
+.m-popup-closer:after {
+    content: "\e915"!important;
+}
+.m-popup.m-collapsed .m-popup-closer:after {
+    content: "\e917"!important;
+}
+.m-popup>div.m-content {
+    text-align: left!important;
+}
+.m-popup>div.m-content>div.m-body{
+  margin-top: auto!important;
+}
+.m-wmcselector-container{
+   height: 21px!important;
+}*/
+/*bugs iOS - Safari*/
+.m-areas > div.m-area.m-top, .m-areas
+> div.m-area.m-bottom, .m-areas
+> div.m-area
+> div.m-panel.m-map-info, .m-areas
+> div.m-area
+> div.m-panel.m-map-info
+> div.m-panel-controls {
+   visibility: visible!important;
+}/*
+.m-popup.m-collapsed {
+  top: 93vh;
+}
+/*bugs iOS*/
+/*
+.m-popup.m-full{
+  top:43px!important; //ionic navbar size
+}*/
