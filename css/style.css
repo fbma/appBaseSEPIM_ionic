@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-}/*
+}
 .m-popup-closer:after {
     content: "\e915"!important;
 }
@@ -18,7 +18,7 @@ body {
 }
 .m-wmcselector-container{
    height: 21px!important;
-}*/
+}
 /*bugs iOS - Safari*/
 .m-areas > div.m-area.m-top, .m-areas
 > div.m-area.m-bottom, .m-areas
@@ -28,12 +28,11 @@ body {
 > div.m-panel.m-map-info
 > div.m-panel-controls {
    visibility: visible!important;
-}/*
+}
 .m-popup.m-collapsed {
   top: 93vh;
 }
 /*bugs iOS*/
-/*
 .m-popup.m-full{
   top:43px!important; //ionic navbar size
-}*/
+}
